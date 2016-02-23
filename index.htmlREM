@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CHAPTER ZERO</title>
+	<!--CSS -->
+	<link rel="stylesheet" type="css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	
+
+	<!-- Visual Libraries -->
+	<script language="javascript" type="text/javascript" src="lib/p5.js"></script>
+	<script src="lib/jquery-1.11.3.min.js"></script>
+	<script src="lib/jquery.quovolver.js"></script>
+
+
+ 	<!-- Audio libraries -->
+	<script src='lib/gibber.lib.js'></script>
+	<script type="text/javascript" src="js/gibSounds.js"></script
+
+	<!-- Downloaded scripts -->
+	<script src="js/jquery.shuffleLetters.js"></script>
+    <script src="js/shuffleScript.js"></script>
+	
+
+	
+	
+	<!-- Scripts -->
+	<script src="js/printText.js"></script>
+
+		
+
+	
+	<!-- APIs-->
+	
+
+</head>
+
+<body>
+<span id="#musicControl">
+	<p id="inputClicked" data-shuffle="1">MUSIC PLAYING</p>
+	<input type="checkbox" id="inClickBool" checked />
+</span>
+
+<!-- Main content wrapper -->
+<div class="outWrap"> <!-- used for Vertical and Horizontal positioning as needs relative position and size -->
+<div class="wrapper">
+
+
+
+<!-- Main Navigation bar -->
+
+			
+
+<img id="header" src="img/logo.png" width="305" height="67" />
+
+
+<nav>
+<ul>
+	<li></li>
+    <li class="backAnim"><a href="contact.html" data-shuffle="1">CONTACT</a></li>
+	<li class="backAnim"><a href="blog/.html" data-shuffle="1">BLOG</a></li>
+    <li><div class="backAnim"><a href="#" data-shuffle="1">PORTFOLIO</a></div></li>
+    <li class="backAnim"><a href="about.html" data-shuffle="1">ABOUT</a></li>
+    <!-- <li><a href="audio.html">AUDIO</a></li>
+<li><a href="visual.html">VISUAL</a></li>
+    <li><a href="code.html">CODING</a></li> -->
+</ul>
+
+</nav>
+
+
+
+
+
+<div class="borderWrap">
+<!-- Main content section -->
+<section>
+
+
+<div class="homeText">
+<h2 data-shuffle="1">I love to code, compose and create electronic music...</h2>
+<p class="homePara" data-printed="1"></p>
+<p class="homePara" data-printed="2"></p>
+<p class="homePara" data-printed="3"></p>
+
+</div>
+</section>
+
+<!-- Side Column -->
+<aside class="homeSide">
+<span class="typed-cursor"></span>
+<div class="asideHeader">
+Free Ebook On MAX/MSP
+</div>
+<img src="img/ebook.png" height="230" width="255" style="margin-top:-15px;margin-bottom:-10px;"/>
+
+<form action="php/mail.php" method="POST">
+<input class="asideInput" type="text" name="name" placeholder="Enter your Email for the free guide!" onfocus="this.placeholder = ''" onblur="this.placeholder='Enter Your Email for the Free Guide!'" />
+
+<input class="asideButton" type="submit" value="Send Me the Free Guide!" />
+</form>
+</aside>
+
+
+<!-- Footer -->
+<footer>
+<p><div class="emaillink"><a class="footerurl" href="mailto:faisalanderson1@gmail.com">Email me!</a></div>
+<div class="copyright">&copy; Faisal Anderson</div></p>
+</footer>
+
+
+
+</div>
+</div>
+</div>
+</body>
+</html>

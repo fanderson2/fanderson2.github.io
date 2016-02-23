@@ -35,6 +35,17 @@
 	
 	<!-- APIs-->
 	
+	<!-- Testimonial Box Scripts -->
+	<script type="text/javascript">
+       $(document).ready(function() {
+			$('.quotes').quovolver({
+				transitionSpeed : 100,
+				autoPlay : true,
+				autoPlaySpeed: 3000
+			});
+		});
+    </script>
+	
 
 </head>
 
@@ -50,20 +61,16 @@
 
 
 
-<!-- Main Navigation bar -->
-
-			
-
 <img id="header" src="img/logo.png" width="305" height="67" />
-
-
+<!-- Main Navigation bar -->
 <nav>
 <ul>
 	<li></li>
-    <li class="backAnim"><a href="contact.html" data-shuffle="1">CONTACT</a></li>
-	<li class="backAnim"><a href="blog/.html" data-shuffle="1">BLOG</a></li>
-    <li><div class="backAnim"><a href="#" data-shuffle="1">PORTFOLIO</a></div></li>
-    <li class="backAnim"><a href="about.html" data-shuffle="1">ABOUT</a></li>
+    <li class="backAnim"><a href="contact.html">CONTACT</a></li>
+	<li class="backAnim"><a href="about.html" >BLOG</a></li>
+    <li><div class="backAnim"><a href="#">PORTFOLIO</a></div></li>
+	<li class="backAnim"><a href="about.html">ABOUT</a></li>
+    
     <!-- <li><a href="audio.html">AUDIO</a></li>
 <li><a href="visual.html">VISUAL</a></li>
     <li><a href="code.html">CODING</a></li> -->
@@ -80,27 +87,48 @@
 <section>
 
 
-<div class="homeText">
-<h2 data-shuffle="1">I love to code, compose and create electronic music...</h2>
-<p class="homePara" data-printed="1"></p>
-<p class="homePara" data-printed="2"></p>
-<p class="homePara" data-printed="3"></p>
+<div class="aboutText">
+<h2>I love to code, compose, improvise and create live electronic music with bespoke interfaces...</h2>
+<p class="homePara">
+	I think it's wrong live electronic music is confined to just pressing a play button when performing, or being constrained to just triggering samples. Computers should be 
+	more than just a playback tool - they should be an expressive instrument capable of shortening the gap between the mind and creation to better express ourselves sonically and emotionally.
+</p>
+<p class="homePara">
+	I'm on a mission to design and develop instruments with various technologies to transform our all too often placid relationship with technology into meaningful, two way communication and art.
+</p>
 
 </div>
+
+<!--Testimonials Start-->
+<div class="positionQuotes">
+<div class="quotes">
+  <blockquote>
+  <p>“That which can be asserted without evidence, can be dismissed.”</p>
+  <p>— Christopher Hitchens (Quote 1)</p>
+  </blockquote>
+
+  <blockquote>
+  <p>“Owners of dogs will have noticed that, .”</p>
+  <p>— Christopher Hitchens (Quote 2)</p>
+  </blockquote>
+
+</div><!-- .quotes -->
+</div>
+ <!--Testimonials End-->
+
+
 </section>
 
 <!-- Side Column -->
-<aside class="homeSide">
-<span class="typed-cursor"></span>
+<aside class="aboutSide">
 <div class="asideHeader">
-Free Ebook On MAX/MSP
+Hi I'm <span class="turnBright">Faisal</span> (Fi-zull)
 </div>
-<img src="img/ebook.png" height="230" width="255" style="margin-top:-15px;margin-bottom:-10px;"/>
+
+<div class="profileWrap"></div>
 
 <form action="php/mail.php" method="POST">
-<input class="asideInput" type="text" name="name" placeholder="Enter your Email for the free guide!" onfocus="this.placeholder = ''" onblur="this.placeholder='Enter Your Email for the Free Guide!'" />
-
-<input class="asideButton" type="submit" value="Send Me the Free Guide!" />
+<input class="asideAboutButton" type="submit" value="Subscribe for Updates" />
 </form>
 </aside>
 
