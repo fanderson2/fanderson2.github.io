@@ -9,14 +9,11 @@
 	<link rel="stylesheet" type="text/css" href="css/demo.css" />
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
 	
-	<!-- FONTS -->
-	
-	
-	
 
 	<!-- Visual Libraries -->
 	<script language="javascript" type="text/javascript" src="lib/p5.js"></script>
 	<script src="lib/jquery-1.11.3.min.js"></script>
+	<script src="lib/jquery.quovolver.js"></script>
 
 
  	<!-- Audio libraries -->
@@ -32,11 +29,22 @@
 	
 	<!-- Scripts -->
 	<script src="js/printText.js"></script>
-	
+
 		
 
 	
 	<!-- APIs-->
+	
+	<!-- Testimonial Box Scripts -->
+	<script type="text/javascript">
+       $(document).ready(function() {
+			$('.quotes').quovolver({
+				transitionSpeed : 100,
+				autoPlay : true,
+				autoPlaySpeed: 3000
+			});
+		});
+    </script>
 	
 
 </head>
@@ -53,22 +61,32 @@
 
 
 
+<img id="header" src="img/logo.png" width="305" height="67" />
 <!-- Main Navigation bar -->
 <nav>
 <ul>
 	<li></li>
-    <li class="backAnim"><a href="contact.html" data-shuffle="1">CONTACT</a></li>
-    <li class="backAnim"><a href="about.html" data-shuffle="1">ABOUT</a></li>
-    <li><div class="backAnim"><a href="#" data-shuffle="1">PROJECTS</a></div></li>
-
+    <li class="backAnim"><a href="contact.html">CONTACT</a></li>
+	<li class="backAnim"><a href="about.html" >BLOG</a></li>
+    <li><div class="backAnim"><a href="#">PORTFOLIO</a></div></li>
+	<li class="backAnim"><a href="index.html">ABOUT</a></li>
+    
+    <!-- <li><a href="audio.html">AUDIO</a></li>
+<li><a href="visual.html">VISUAL</a></li>
+    <li><a href="code.html">CODING</a></li> -->
 </ul>
 
 </nav>
 
 
-			
 
+
+
+<div class="borderWrap">
 <!-- Main content section -->
+<section>
+
+
 <section class="contactSection">
 
 
@@ -92,6 +110,22 @@
 <!-- Contact Form -->
 
 
+</section>
+
+<!-- Side Column -->
+<aside class="aboutSide">
+<div class="asideHeader">
+Hi I'm Faisal (Fi-zull)
+</div>
+
+<div class="profileWrap"></div>
+
+<form action="php/mail.php" method="POST">
+<input class="asideAboutButton" type="submit" value="Subscribe for Updates" />
+</form>
+</aside>
+
+
 <!-- Footer -->
 <footer>
 <p><div class="emaillink"><a class="footerurl" href="mailto:faisalanderson1@gmail.com">Email me!</a></div>
@@ -102,6 +136,6 @@
 
 </div>
 </div>
-
+</div>
 </body>
 </html>

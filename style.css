@@ -72,7 +72,7 @@ h1 {
 	position:relative;	
 	height:auto;
 	width:auto;
-	padding: 5% 0;
+	margin-top:50px;
 	
 }
 
@@ -80,7 +80,6 @@ h1 {
 	position:relative;
 	width:1100px;
 	
-	padding: 5% 0;
 	margin:0 auto;
  
 }
@@ -220,7 +219,7 @@ section {
 	background-color:#999999;
 	text-align:center;
 	margin-top:0;
-	height:30px; 
+	height:25px; 
 	font-size:25px;
 	font-weight:bold;
 	padding:10px;
@@ -237,14 +236,16 @@ section {
 	height:400px;
 	background-color:#FFFFFF;
 	position:relative;
+
 }
 
 textarea {
 	resize:none;
 	margin-top:20px;
+	width:50%;
 }
 .contactInput {
- 
+ margin-top:60px;
   border: none;
   border-bottom: solid 2px #c9c9c9;
   transition: border 0.3s;
@@ -314,6 +315,7 @@ h2 {
 	z-index:0;
 	
 }
+
 
 
 .aboutText {
@@ -472,6 +474,7 @@ height:35px;
 color:white;	
 
 }
+
 
 .asideAboutButton {
   background: #999999;
