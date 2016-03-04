@@ -1,14 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
+
+
+
 <html>
 <head>
 <meta charset="UTF-8">
 <title>CHAPTER ZERO</title>
 	<!--CSS -->
 	<link rel="stylesheet" type="css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="css/demo.css" />
-	<link rel="stylesheet" type="text/css" href="css/component.css" />
-	
+	<link rel="stylesheet" type="text/css" href="css/main.scss" />
 
 	<!-- Visual Libraries -->
 	<script language="javascript" type="text/javascript" src="lib/p5.js"></script>
@@ -34,19 +34,6 @@
 
 	
 	<!-- APIs-->
-	
-	<!-- Testimonial Box Scripts -->
-	<script type="text/javascript">
-       $(document).ready(function() {
-			$('.quotes').quovolver({
-				transitionSpeed : 100,
-				autoPlay : true,
-				autoPlaySpeed: 3000
-			});
-		});
-    </script>
-	
-
 </head>
 
 <body>
@@ -63,12 +50,6 @@
 
 <img id="header" src="img/logo.png" width="305" height="67" />
 <!-- Main Navigation bar -->
-<div class="socialmedia">
-	<img src="img/icons/facebook.png" width="32px" height="32px" />
-	<img src="img/icons/soundcloud.png" width="32px" height="32px" />
-	<img src="img/icons/linkedin.png" width="32px" height="32px" />
-</div>
-<nav>
 <nav>
 <ul>
 	<li></li>
@@ -76,10 +57,7 @@
 	<li class="backAnim"><a href="about.html" >BLOG</a></li>
     <li><div class="backAnim"><a href="#">PORTFOLIO</a></div></li>
 	<li class="backAnim"><a href="index.html">ABOUT</a></li>
-    
-    <!-- <li><a href="audio.html">AUDIO</a></li>
-<li><a href="visual.html">VISUAL</a></li>
-    <li><a href="code.html">CODING</a></li> -->
+
 </ul>
 
 </nav>
@@ -91,32 +69,11 @@
 <div class="borderWrap">
 <!-- Main content section -->
 <section>
-
-
-<section class="contactSection">
-
-
-
-
-<div class="contactText">
-<h2 data-shuffle="1" class="contactHead">Contact Me	</h2>
-<form action="php/mail.php" method="POST">
-<input class="contactInput" type="text" name="name" placeholder="Name"/>
-<input class="contactInput" type="text" name="name" placeholder="Email"/><br>
-<textarea class="contactTextArea" name="message" rows="7" cols="120" placeholder="Message"></textarea>
-<div class="inputButtons"> 
-	<br> 	
-	<input type="submit" value="Send" />		
-	<input type="reset" value="Clear" />
+<div class="jekyllWrap">
+      <div class="wrapper">
+        {{ content }}
+      </div>
 </div>
-</form>
-
-</div>
-</section>
-
-<!-- Contact Form -->
-
-
 </section>
 
 <!-- Side Column -->
