@@ -555,9 +555,9 @@ ul.rig li:hover {
 	
 }
 ul.rig li img {
-	max-width: 100%;
-	height: auto;
-	margin:0 2px 20px;
+	margin: 0 0 0 5px;
+	height: 150px;
+	width:300px;
 	-webkit-filter: grayscale(.5);
   filter: grayscale(.5);
   -moz-filter: grayscale(.5);
@@ -582,12 +582,14 @@ ul.rig li p {
 }
 h3 {
 	text-align:center;
+	
 }
 
 h3 a {
 
 	color:black;
 	text-decoration:none;
+	width:100%;
 }
 
 h3 a:hover {
@@ -606,6 +608,8 @@ h3 a:hover {
 .mfp-no-margins .mfp-container {
 	padding: 0;
 }
+
+
 
 
 
@@ -629,6 +633,135 @@ ul.rig.columns-3 li {
 		margin: 0 0 20px;
 	}
 }
+
+.portBtn {
+	width:100%;
+	cursor:pointer;
+  color: #ffffff;
+  font-size: 20px;
+  background: #d93434;
+  text-decoration: none;
+}
+
+.portBtn:hover {
+  background: #fc433c;
+  text-decoration: none;
+}
+.projBtn {
+  
+  color: #ffffff;
+  font-size: 20px;
+  background: #d93434;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top:40px;
+}
+
+projCenter {
+	margin-top:30px;
+
+}
+
+.projBtn:hover {
+  background: #fc3c3c;
+  text-decoration: none;
+}
+
+
+.noProject {
+	width:100%;
+	height:293px;
+	line-height:293px;
+	background-color:gray;
+	text-align:center;
+	color:white;
+	font-weight:bold;
+	
+}
+
+/*PROJECT: TURNER GIG */
+
+.projectSection {
+	width:66%;
+	height:1000px;
+
+}
+
+.projMainImg {
+	display:block;
+	margin:30px auto;
+	width:auto;
+	height:auto;
+	border:10px solid #999;
+}
+
+
+.projectSide {
+	float:right;
+	text-align:center;
+	width:34%;
+	height:1000px;
+	background-color:#fff251;
+}
+
+
+.asideProjHeader {
+background-color:#999999;
+padding:10px 0 10px 0;
+font-weight:bold;
+font-size:20px;
+height:35px;	
+color:#FFFFFF;
+}
+.scFrame {
+	width:520px;
+	margin-top:50px;
+	
+}
+/*TURNER PROJECT */
+.turnerImg {
+	margin:20px auto;
+	box-shadow: inset 0px 0px 30px #000000;
+	height:194px;
+	width:322px;
+	border:5px solid #555555;
+}
+
+.turnerUL {
+	list-style-type:circle;
+	margin-left:20px;
+	background-color:#eee;
+	width:332px;
+	border:1px solid #ccc;
+}
+
+.turnerLI {
+	float:none;
+	text-align:left;
+	display:block;
+	padding-left:0px;
+	margin: 10px 0;
+	padding-left:10px;
+	
+}
+
+
+.turnerBtn {
+  
+  color: #ffffff;
+  font-size: 20px;
+  background: #d93434;
+  padding: 10px 20px 10px 20px;
+  margin-top:40px;
+  text-decoration: none;
+}
+
+.turnerBtn:hover {
+  background: #fc3c3c;
+  text-decoration: none;
+}
+
+
 /* FOOTER */
 
 footer {
