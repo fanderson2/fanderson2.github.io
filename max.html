@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metronome</title>
+    <script type="text/javascript" src="https://cycling74.s3.amazonaws.com/download/xebra.js"></script>
+
+    <script type="text/javascript">
+        var options = {
+            hostname : "localhost", // localhost
+            port : 8086
+        };
+        var xebraState = new Xebra.State(options);
+        xebraState.connect();
+        xebraState.on("channel_message_received", function(chan, msg) {
+            if (chan === "toBrowser") {
+                document.getElementById("fromMax").textContent = msg;
+            }
+        });
+
+        </script>
+
+</head>
+<body>
+
+    <div id="fromMax"></div>
+    
+</body>
+</html>
