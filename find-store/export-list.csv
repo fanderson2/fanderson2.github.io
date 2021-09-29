@@ -1,0 +1,90 @@
+EXPORT
+HTTP URls
+Mixed Content
+Form URL Insecure
+Form on HTTP URL
+Unsafe Cross-Origin Links
+Protocol-Relative Resource Links
+Missing HSTS Header
+Missing Content-Security-Policy Header
+Missing X-Content-Type-Options Header
+Missing X-Frame-Options Header
+No Response
+Success (2xx)
+Redirection (3xx)
+Redirection (JavaScript)
+Redirection (Meta Refresh)
+Client Error (4xx)
+Server Error (5xx)
+Non ASCII Characters
+Underscores
+Uppercase
+Multiple Slashes
+Repetitive Path
+Contains Space
+Internal Search
+Parameters
+Over X Characters
+Missing
+Duplicate
+Over X Characters
+Below X Characters
+Over X Pixels
+Below X Pixels
+Same as H1
+Multiple
+Missing
+Duplicate
+Over X Characters
+Below X Characters
+Over X Pixels
+Below X Pixels
+All
+Duplicate
+Over X Characters
+Multiple
+Exact Duplicates
+Near Duplicates
+Low Content Pages
+Over X KB
+Missing Alt Text
+Missing Alt Attribute
+Canonicalised
+Missing
+Multiple
+Non-Indexable Canonical
+Contains Pagination
+Noindex
+Nofollow
+Non-200 hreflang URLs
+Unlinked hreflang URLs
+Missing Return Links
+Inconsistent Language & Region Return Links
+Non-Canonical Return Links
+Noindex Return Links
+Incorrect Language & Region Codes
+Multiple Entries
+Missing Self Reference
+Not Using Canonical
+Missing X-Default
+Missing
+Missing
+Validation Errors
+Validation Warnings
+Parse Errors
+Microdata URLs
+JSON-LD URLs
+RDFa URLs
+URLs not in Sitemap
+Orphan URLs
+Non-Indexable URLs in Sitemap
+URLs in Multiple Sitemaps
+XML Sitemap with over 50k URLs
+XML Sitemap over 50MB
+Redirection (3xx) Inlinks
+Redirection (JavaScript) Inlinks
+Redirection (Meta Refresh) Inlinks
+Client Error (4xx) Inlinks
+Server Error (5xx) Inlinks
+Redirect Chains
+Redirect & Canonical Chains
